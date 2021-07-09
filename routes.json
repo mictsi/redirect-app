@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "route": "/id1-sv",
+      "redirect": "https://ubuntu.ite.kth.se",
+      "statusCode": 302
+    },
+    {
+      "route": "/id1-en",
+      "redirect": "https://ubuntu.ite.kth.se",
+      "statusCode": 302
+    },
+    {
       "route": "/id2-en",
       "redirect": "https://intra.kth.se/en/it/kth-se-konto/fa-losenord-till-ditt-kth-konto-1.311857",
       "statusCode": 302
@@ -38,6 +48,11 @@
     {
       "route": "/id5-en",
       "redirect": "https://intra.kth.se/it/dokument/spara-filer-i-molnet/migrering-av-kth-box-till-kth-onedrive-1.1064126",
+      "statusCode": 302
+    },
+    {
+      "route": "/azure-reports",
+      "redirect": "https://ubuntu.ite.kth.se/lab/lab.html",
       "statusCode": 302
     }
   ]
