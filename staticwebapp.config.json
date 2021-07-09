@@ -5,5 +5,62 @@
     },
     "mimeTypes": {
         ".json": "text/json"
-    }
+    },
+    "routes": [
+      {
+        "route": "/id1-sv",
+        "redirect": "https://ubuntu.ite.kth.se",
+        "statusCode": 302
+      },
+      {
+        "route": "/id1-en",
+        "redirect": "https://ubuntu.ite.kth.se",
+        "statusCode": 302
+      },
+      {
+        "route": "/id2-en",
+        "redirect": "https://intra.kth.se/en/it/kth-se-konto/fa-losenord-till-ditt-kth-konto-1.311857",
+        "statusCode": 302
+      },
+      {
+        "route": "/id2-sv",
+        "redirect": "https://intra.kth.se/it/kth-se-konto/fa-losenord-till-ditt-kth-konto-1.311857",
+        "statusCode": 302
+      },
+      {
+        "route": "/id3-en",
+        "redirect": "https://intra.kth.se/en/it/kontakta-it-support/kth-se-konto",
+        "statusCode": 302
+      },
+      {
+        "route": "/id3-sv",
+        "redirect": "https://intra.kth.se/it/kontakta-it-support/kth-se-konto",
+        "statusCode": 302
+      },
+      {
+        "route": "/id4-sv",
+        "redirect": "https://www.kth.se/gemensamt/driftsinformation-webbtjanster/ug-rss",
+        "statusCode": 302
+      },
+      {
+        "route": "/id4-en",
+        "redirect": "https://www.kth.se/en/gemensamt/driftsinformation-webbtjanster/ug-rss",
+        "statusCode": 302
+      },
+      {
+        "route": "/id5-sv",
+        "redirect": "https://intra.kth.se/en/it/dokument/spara-filer-i-molnet/migrering-av-kth-box-till-kth-onedrive-1.1064126",
+        "statusCode": 302
+      },
+      {
+        "route": "/id5-en",
+        "redirect": "https://intra.kth.se/it/dokument/spara-filer-i-molnet/migrering-av-kth-box-till-kth-onedrive-1.1064126",
+        "statusCode": 302
+      },
+      {
+        "route": "/azure-reports",
+        "redirect": "https://ubuntu.ite.kth.se/lab/lab.html",
+        "statusCode": 302
+      }
+    ]
 }
