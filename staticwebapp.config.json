@@ -1,14 +1,9 @@
 {
-  "routes": [
-    {
-      "route": "/id1-sv",
-      "redirect": "https://www.kth.se",
-      "statusCode": 302
+    "navigationFallback": {
+      "rewrite": "index.html",
+      "exclude": ["/assets/img/*.{png,jpg,gif}", "*.css"]
     },
-    {
-      "route": "/id1-en",
-      "redirect": "https://www.kth.se/en",
-      "statusCode": 302
+    "mimeTypes": {
+        ".json": "text/json"
     }
-]
 }
